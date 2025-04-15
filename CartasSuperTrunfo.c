@@ -46,8 +46,10 @@ int main()
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &turistico);
 
+    printf("\n");
+
     // Exibição dos dados da primeira carta:
-    printf("Carta Um");
+    printf("Carta Um \n");
     printf("Estado: %s\n", estado);
     printf("Código da cidade: %s\n", codCarta);
     printf("Nome da cidade: %s\n", nomeCidade);
@@ -55,6 +57,9 @@ int main()
     printf("Área em km²: %.2f\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Pontos turísticos: %d\n", turistico);
+
+    printf("\n");
+    printf("\n");
 
     printf("Carta da 2° cidade:\n");
     printf("Digite o nome do Estado: ");
@@ -72,7 +77,10 @@ int main()
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &turistico);
 
+    printf("\n");
+
     // Exibição dos dados da segunda carta:
+    printf("Carta Dois: \n");
     printf("Estado: %s\n", estado);
     printf("Código da cidade: %s\n", codCarta);
     printf("Nome da cidade: %s\n", nomeCidade);
